@@ -1,0 +1,20 @@
+div {
+    background: lightgray;
+}
+
+
+#movies {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 15px;
+    border: 1px solid black;
+}
+
+.title {
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.desc{
+
+}
