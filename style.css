@@ -1,20 +1,7 @@
-div {
-    background: lightgray;
+h1 {
+    text-align: center;
 }
 
-
-#movies {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    margin: 15px;
-    border: 1px solid black;
-}
-
-.title {
-    border: 1px solid black;
-    font-size: 20px;
-}
-
-.desc{
-
+a {
+    padding: 10px;
 }

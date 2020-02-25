@@ -6,7 +6,7 @@ fetch('https://ghibliapi.herokuapp.com/films')
     const movies = document.getElementById('movies')
     data.forEach(movie => {
         console.log(movie)
-        let movieDiv = document.createElement('div')
+        let movieDiv = document.createElement("div")
         movieDiv.innerHTML = '<div class = "title">' + movie.title + '</div>' + '<div class="desc">' +  movie.description + '</div>'
         movieDiv.classList.add('movie');
         movies.append(movieDiv)
